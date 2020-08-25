@@ -25,10 +25,9 @@ function saveQuestionsToLesson(lessonId, questions) {
         lesson_id: lessonId,
         questions: questions,
     }).then(response => {
-        console.log(response);
-        // redirectToLessonsPage();
+        redirectToLessonsPage();
     }).catch(err => {
-        // redirectToLessonsPage();
+        redirectToLessonsPage();
     });
 };
 
@@ -77,10 +76,10 @@ const mutations = {
             if (response.data && response.data.id) {
                 saveQuestionsToLesson(response.data.id, state.questions);
             } else {
-                // redirectToLessonsPage();
+                redirectToLessonsPage();
             }
         }).catch(() => {
-            // redirectToLessonsPage();
+            redirectToLessonsPage();
         });
     },
 };
