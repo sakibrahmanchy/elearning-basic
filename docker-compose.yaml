@@ -23,8 +23,8 @@ services:
     restart: unless-stopped
     environment:
       MYSQL_DATABASE: elearning
-      MYSQL_ROOT_PASSWORD: sakib23456
-      MYSQL_PASSWORD: sakib23456
+      MYSQL_ROOT_PASSWORD: pass
+      MYSQL_PASSWORD: pass
       MYSQL_USER: root
       SERVICE_TAGS: dev
       SERVICE_NAME: mysql
