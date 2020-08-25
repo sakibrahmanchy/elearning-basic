@@ -2,97 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9e85c9f0-f6ae-4956-b7fe-5fdb0893f1cf" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/LessonController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Models/Course.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Models/Lesson.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Repositories/BaseRepository.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Repositories/Criteria/ICriteria.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Repositories/Criteria/ICriterion.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Repositories/Eloquent/CourseRepository.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Repositories/Eloquent/Criteria/ByUser.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Repositories/Eloquent/Criteria/EagerLoad.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Repositories/Eloquent/Criteria/IsLive.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Repositories/Eloquent/Criteria/LatestFirst.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Repositories/Eloquent/LessonRepository.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Repositories/Eloquent/ResultRepository.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Repositories/Eloquent/UserRepository.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Repositories/Exceptions/NoEntityDefined.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Repositories/RepositoryContract.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/2020_08_24_182636_create_courses_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/2020_08_24_183001_create_lessons_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/seeds/CourseTableSeeder.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/js/components/lessons/basic-details.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/js/components/lessons/create-lesson.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/js/components/lessons/lesson.store.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/js/components/lessons/lesson.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/js/components/loader/loading.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/js/components/steps/steps.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/js/components/steps/steps.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/courses/form.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/courses/list.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/lessons/form.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/lessons/index.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/lessons/show.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webpack.mix.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/ProjektasQuiz.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/ProjektasQuiz.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/AdminPanelController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/AdminPanelController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Auth/RegisterController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Auth/RegisterController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/QuestionController.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/QuestionsOptionsController.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/ResultsController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/ResultsController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/TopicController.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/UserController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/UserController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Requests/StoreQuestionRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Requests/StoreQuestionRequest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Requests/StoreResultRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Requests/StoreResultRequest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Requests/StoreTopicRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Requests/UpdateCourseRequest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Requests/UpdateQuestionOptionsRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Requests/ManageUserRequest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Requests/UpdateQuestionRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Requests/StoreLessonRequest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Requests/UpdateTopicRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Requests/StoreCourseRequest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Requests/UpdateUserRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Requests/UpdateUserRequest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Options.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Options.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Question.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Question.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Result.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Result.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Topic.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/User.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/UserOption.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/UserOption.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bootstrap/cache/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/auth.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/auth.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/services.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/services.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/factories/UserFactory.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/factories/UserFactory.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2014_10_12_100000_create_password_resets_table.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2019_07_05_094148_create_topics_table.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2019_07_05_094316_create_questions_table.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2019_07_05_094716_create_questions_options_table.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2019_07_05_144352_create_results_table.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2019_08_13_112733_create_user_options_table.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2019_08_19_083521_add_admin_column_to_users_table.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/seeds/QuestionsTableSeeder.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/seeds/TopicsTableSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeds/LessonsTableSeeder.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/seeds/UserTableSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeds/UserTableSeeder.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/components/ExampleComponent.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/components/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/adminpanel/adminSidebar.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/adminpanel/adminSidebar.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/home.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/home.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/questions/edit.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/questions/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/courses/index.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/questions/show.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/courses/show.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/questionsOptions/edit.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/questionsOptions/index.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/questionsOptions/show.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/results/show.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/results/show.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/topics/create.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/topics/edit.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/topics/index.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/topics/show.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/welcome.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/welcome.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjektasQuiz.rar" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -283,7 +193,7 @@
       <workItem from="1564667143107" duration="609000" />
       <workItem from="1564670782267" duration="30850000" />
       <workItem from="1566250614687" duration="10027000" />
-      <workItem from="1598212913436" duration="53084000" />
+      <workItem from="1598212913436" duration="53335000" />
     </task>
     <servers />
   </component>
