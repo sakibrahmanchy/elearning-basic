@@ -21,7 +21,7 @@
                             <input type="hidden" name="lesson_id" value="{{$lesson->id}}">
                             @foreach($lesson->questions as $question )
                                 <div>
-                                    {{$question->question_text}}
+                                    <h3>{{$question->question_text}}</h3>
                                     <input type="hidden" name="question_id[]" value="{{$question->id}}">
                                     @foreach($question->options as $option)
                                         <div>
@@ -31,6 +31,7 @@
                                         </div>
                                     @endforeach
                                 </div>
+                                <br>
                             @endforeach
                         </div>
                         <a href="{{route('results.show', $lesson->id)}}"><input type="submit" value="Submit"

@@ -4,7 +4,7 @@ use App\Models\Lesson;
 use App\Models\Options;
 use App\Models\Question;
 use Illuminate\Database\Seeder;
-use Faker\Generator as Faker;
+use Faker\Factory as Factory;
 
 class LessonsTableSeeder extends Seeder
 {
@@ -15,10 +15,10 @@ class LessonsTableSeeder extends Seeder
      */
     public function run()
     {
-        $faker = new Faker();
+        $faker = Factory::create();
         $countLessons = Lesson::count();
         if ($countLessons < 10) {
-            $courses = Course::take(10);
+            $courses = Course::take(10)->get();
             foreach ($courses as $course) {
                 for ($i = 0; $i < 5; $i++) {
                     $lesson = new Lesson();

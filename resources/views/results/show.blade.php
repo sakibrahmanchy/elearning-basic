@@ -17,6 +17,10 @@
                                 <td>{{$result->created_at}}</td>
                             </tr>
                             <tr>
+                                <th>Lesson</th>
+                                <td>{{$result->lesson->title}}</td>
+                            </tr>
+                            <tr>
                                 <th>Score</th>
                                 <td>{{$result->correct_answers}}/{{$result->questions_count}}</td>
                             </tr>
@@ -36,10 +40,10 @@
                                             @foreach($question->options as $option)
                                                 @if($option->correct == 1)
                                                     <li style="font-weight: bold;">{{$option->option}}
-                                                        <em>(correct answer)</em>
+                                                        <em class="text-success">(correct answer)</em>
                                                         @foreach($result->options as $user_option)
                                                             @if($user_option->option_id == $option->id)
-                                                                <em>(your answer)</em>
+                                                                <em class="text-success">(your answer)</em>
                                                             @endif
                                                         @endforeach
                                                     </li>
@@ -48,7 +52,7 @@
                                                         {{$option->option}}
                                                         @foreach($result->options as $user_option)
                                                             @if($user_option->option_id == $option->id)
-                                                                <em style="font-weight: bold;">(your answer)</em>
+                                                                <em class="text-danger" style="font-weight: bold;">(your answer)</em>
                                                             @endif
                                                         @endforeach
                                                     </li>
