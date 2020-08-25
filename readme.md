@@ -21,6 +21,8 @@
        make seed
        make npm
     ```
+- Visit http://localhost:443
+
 # Seeded users
 
 - User: user@user.com password: password
