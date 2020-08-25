@@ -9,8 +9,7 @@
      DB_PORT=3306
      DB_DATABASE=elearning
      DB_USERNAME=root
-     DB_PASSWORD=pass```
-     
+     DB_PASSWORD=pass
 - Open project directory in a terminal window
 - Run `make network`
 - Run `make` 
@@ -21,7 +20,7 @@
        make migrate
        make seed
        make npm
-    ``
+    ```
 # Seeded users
 
 - User: user@user.com password: password
