@@ -81,12 +81,12 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    Quiz App
+                    Elearning
                 </div>
 
                 <div class="links">
                     @if(Auth::user())
-                            <a href="{{route('courses.index')}}">All Topics</a>
+                            <a href="{{route('courses.index')}}">Learning through quizzes</a>
                     @endif
                 </div>
             </div>
