@@ -3,12 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="9e85c9f0-f6ae-4956-b7fe-5fdb0893f1cf" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjektasQuiz.rar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/seeds/LessonsTableSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeds/LessonsTableSeeder.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/lessons/show.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/lessons/show.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/results/show.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/results/show.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/seeds/CourseTableSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeds/CourseTableSeeder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/lessons/form.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/lessons/form.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/lessons/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/lessons/index.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -199,7 +196,7 @@
       <workItem from="1564667143107" duration="609000" />
       <workItem from="1564670782267" duration="30850000" />
       <workItem from="1566250614687" duration="10027000" />
-      <workItem from="1598212913436" duration="54826000" />
+      <workItem from="1598212913436" duration="55541000" />
     </task>
     <servers />
   </component>
@@ -243,14 +240,14 @@
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
     <state x="497" y="160" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.23.1680.1027@0.23.1680.1027" timestamp="1598215111098" />
-    <state x="495" y="300" width="845" height="538" key="find.popup" timestamp="1598380348845">
+    <state x="495" y="300" width="845" height="538" key="find.popup" timestamp="1598381056892">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state x="495" y="300" width="845" height="538" key="find.popup/0.23.1680.1027@0.23.1680.1027" timestamp="1598380348845" />
-    <state x="505" y="250" width="670" height="676" key="search.everywhere.popup" timestamp="1598380068960">
+    <state x="495" y="300" width="845" height="538" key="find.popup/0.23.1680.1027@0.23.1680.1027" timestamp="1598381056892" />
+    <state x="505" y="250" width="670" height="676" key="search.everywhere.popup" timestamp="1598381039956">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state x="505" y="250" width="670" height="676" key="search.everywhere.popup/0.23.1680.1027@0.23.1680.1027" timestamp="1598380068960" />
+    <state x="505" y="250" width="670" height="676" key="search.everywhere.popup/0.23.1680.1027@0.23.1680.1027" timestamp="1598381039956" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

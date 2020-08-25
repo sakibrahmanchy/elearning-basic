@@ -25,9 +25,6 @@
                                 <tr>
                                     <td>
                                         {{ $lesson->title }}
-                                        <a class="btn btn-sm" href="{{ route('lessons.edit', $lesson->id) }}">
-                                            <small>Edit</small>
-                                        </a>
                                     </td>
                                     <td>
                                         {{ $lesson->description }}
