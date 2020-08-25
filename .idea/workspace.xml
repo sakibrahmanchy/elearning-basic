@@ -5,6 +5,8 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProjektasQuiz.rar" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/database/seeds/LessonsTableSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeds/LessonsTableSeeder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/lessons/show.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/lessons/show.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/results/show.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/results/show.blade.php" afterDir="false" />
     </list>
@@ -197,7 +199,7 @@
       <workItem from="1564667143107" duration="609000" />
       <workItem from="1564670782267" duration="30850000" />
       <workItem from="1566250614687" duration="10027000" />
-      <workItem from="1598212913436" duration="54466000" />
+      <workItem from="1598212913436" duration="54696000" />
     </task>
     <servers />
   </component>
